@@ -1,0 +1,16 @@
+<template>
+    <div>
+    <p style="font-size: xx-large">Welcome to Possible {name}</p>
+    <lightning-input type="text" label="Enter Name" value={name}
+            onchange={handleOnChange}></lightning-input>
+     
+            <lightning-input type="checkbox" label="isActive" value={isActive}
+            onchange={handleOnChange1}></lightning-input>
+     
+            <template lwc:if={isActive}>
+                this is my one template
+    </template>
+     
+            <template lwc:else>this is my second template</template>
+    </div>
+    </template>

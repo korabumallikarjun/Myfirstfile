@@ -1,0 +1,14 @@
+<template>
+    <div>
+        Parent component
+    </div>
+        <lightning-button
+        variant="Brand"
+        label="Show/Hide" onclick={handleClick}
+        ></lightning-button>
+     <template if:true={isVisible}>
+        <c-childcmp></c-childcmp>
+     </template>
+   
+    
+</template>

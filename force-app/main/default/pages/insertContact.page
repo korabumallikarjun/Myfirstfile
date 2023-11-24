@@ -1,0 +1,16 @@
+<apex:page sidebar="false" controller="Contact4">
+<apex:form >
+     <apex:pageBlock title="EditContact">
+         <apex:pageBlockSection columns="3" title="Contact Information">
+           <apex:inputField value="{!newContact.FirstName}"/>
+           <apex:inputField value="{!newContact.LastName}"/>
+           <apex:inputField value="{!newContact.phone}"/>
+           <apex:inputField value="{!newContact.Birthdate}"/>
+         </apex:pageBlockSection>
+       <apex:pageBlockButtons >
+           <apex:commandButton value="Insert" action="{!insertContact}"/>
+           
+       </apex:pageBlockButtons>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

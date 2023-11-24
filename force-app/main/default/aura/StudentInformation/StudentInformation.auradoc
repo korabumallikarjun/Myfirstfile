@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>This component is used to store the student Information</aura:description>
+	<aura:example name="Student Information" ref="c:StudentInformation" label="student information">
+		This is to store the Student Information
+	</aura:example>
+</aura:documentation>

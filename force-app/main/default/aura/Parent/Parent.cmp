@@ -1,0 +1,5 @@
+<aura:component >
+	I am from Parent Component
+    <c:Child/>
+    <aura:handler name="myEvt" event="c:MyEvent" action="{!c.handleEvent}"/>
+</aura:component>

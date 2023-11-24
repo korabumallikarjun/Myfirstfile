@@ -1,0 +1,10 @@
+<aura:component >
+	<lightning:recordEditForm  objectApiName="Merchandise__c">
+        <lightning:messages/>
+            <lightning:inputField fieldName="Name"/>
+            <lightning:inputField fieldName="Mechandise_Price__c"/>
+            <lightning:inputField fieldName="Merchandise_Desc__c"/>
+            <lightning:inputField fieldName="Mrchandie_Stock__c"/>
+            <lightning:button type="submit" name="update" label="Update"/>
+    </lightning:recordEditForm>
+</aura:component>

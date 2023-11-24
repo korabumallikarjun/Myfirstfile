@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Record with Field Integrity" icon-name="standard:account">
+        <div class="slds-p-around_x-small">
+            <lightning-input label="Student Name" value={rec.Name} onchange={handleNameChange}></lightning-input>
+            <lightning-input label="Student FatherName" value={rec.StudentFatherName__c} onchange={handleFnameChange}></lightning-input>
+            <lightning-input type="email" label="Student Email" value={rec.Student_Email__c} onchange={handleEmailChange}></lightning-input>
+            <lightning-input type="currency" label="Student Fees" value={rec.Student_Fees__c} onchange={handleStdfeesChange}></lightning-input><br/>
+            <lightning-button label="Save" onclick={handleClick}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

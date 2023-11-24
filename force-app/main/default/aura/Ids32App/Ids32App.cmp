@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:attribute name="accRecord" type="Account"/>
+    <force:recordData aura:id="recordLoader"
+                      recordId="0015h00001XActwAAD"
+                      fields="Name,Description,Phone,Industry"
+                      targetfields="{!v.accRecord}"/>
+</aura:component>

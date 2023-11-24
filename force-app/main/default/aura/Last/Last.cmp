@@ -1,0 +1,6 @@
+<aura:component >
+	<P>
+        This is Last Component
+        Merchandise record Id is= {!v.recordId};
+    </P>
+</aura:component>
